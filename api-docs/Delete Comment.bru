@@ -1,0 +1,17 @@
+meta {
+  name: Delete Comment
+  type: http
+  seq: 7
+}
+
+delete {
+  url: http://localhost:8080/comment/1
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "Content": "New Updated Comment!"
+  }
+}
