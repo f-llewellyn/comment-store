@@ -9,6 +9,7 @@ Before getting started, ensure you have golang and docker installed on your mach
 To start the server, run the following in the project root directory:
 
 ```
+docker compose up
 go mod download
 go run main.go
 ```
